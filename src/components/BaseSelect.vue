@@ -3,12 +3,12 @@
     <b-row>
       <b-col cols="12">
         <b-form-select
-          v-model="selectedUser"
+          v-model="selectedUserId"
         >
           <b-form-select-option
             v-for="user in users"
             :key="user.id"
-            :value="user.name"
+            :value="user.id"
           >
             <p>{{ user.name }}</p>
           </b-form-select-option>
@@ -25,15 +25,15 @@ export default {
     users: {
       type: Array,
       default: () => [],
-    }
+    },
   },
   data: () => ({
-    selectedUser: 'name 1',
+    selectedUserId: 1,
   }),
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 
 .custom-select {
   width: 20%;

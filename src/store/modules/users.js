@@ -6,11 +6,11 @@ export const state = {
 };
 
 const getters = {
-  getUserById: state => (id) => state.users.find(user => user.id === id),
+  getUserById: state => id => state.users.find(user => user.id === id),
 };
 
 const mutations = {
-  'SET_USERS'(state, data) {
+  SET_USERS(state, data) {
     state.users = data;
   },
 };

@@ -1,0 +1,41 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin max-width-lg {
+  @media(max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin max-width-md {
+  @media(max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin max-width-sm {
+  @media(max-width: 576px) {
+    @content;
+  }
+}
