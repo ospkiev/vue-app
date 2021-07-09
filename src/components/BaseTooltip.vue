@@ -17,7 +17,9 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
+@import '@/style/_vars';
+@import '@/style/_mixins';
 
 button {
   width: 82px;
@@ -25,7 +27,7 @@ button {
   padding: 8px 0;
   color: #4468D6;
   margin-right: 12px;
-  border-color: #4468D6;
+  border-color: $orange;
   position: relative;
 }
 

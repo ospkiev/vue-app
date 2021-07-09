@@ -67,13 +67,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/_vars';
+@import '@/style/_mixins';
 
 .wrapper {
   width: 100%;
   padding: 100px 80px;
   main {
     padding: 30px 40px;
-    border: 1px solid #F2F3F6;
+    border: 1px solid $primary;
     box-shadow: 0px 2px 6px rgba(0, 44, 92, 0.1);
     border-radius: 2px;
     min-height: 320px;
