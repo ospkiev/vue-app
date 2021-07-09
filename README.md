@@ -1,5 +1,5 @@
 # vue-template
-Vuex, Vue-router, SASS, Bootstrap-vue, AirBnb linter. 
+Vuex, Vue-router, SASS, Axios, Vue-notifications, Bootstrap-vue, AirBnb linter.
 
 ## Project setup
 ```
